@@ -1,0 +1,123 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+  background: #f0f4f8;
+  color: #333;
+  line-height: 1.8;
+}
+header {
+  background: #173968;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+header a {
+  color: #ffe407;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+article {
+  max-width: 720px;
+  margin: 32px auto;
+  background: white;
+  border-radius: 12px;
+  padding: 32px 28px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #173968;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 1.15rem;
+  font-weight: bold;
+  color: #173968;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  border-left: 4px solid #ffe407;
+  padding-left: 10px;
+}
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #444;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+h4 {
+  font-size: 0.95rem;
+  font-weight: bold;
+  color: #666;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+p { margin-bottom: 12px; }
+ul, ol {
+  margin: 8px 0 12px 20px;
+}
+li { margin-bottom: 4px; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 0.9rem;
+}
+th {
+  background: #173968;
+  color: white;
+  padding: 8px 12px;
+  text-align: left;
+}
+td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #eee;
+}
+tr:nth-child(even) td { background: #f8f9fa; }
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 16px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+blockquote {
+  background: #f0f4f8;
+  border-left: 4px solid #ffe407;
+  padding: 12px 16px;
+  margin: 16px 0;
+  border-radius: 0 8px 8px 0;
+  color: #555;
+}
+strong { color: #173968; }
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 24px 0;
+}
+.back-link {
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+.back-link a {
+  color: #173968;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #aaa;
+  padding: 24px;
+}
+@media (max-width: 600px) {
+  article { padding: 20px 16px; margin: 16px; }
+  h1 { font-size: 1.2rem; }
+  table { font-size: 0.8rem; }
+  th, td { padding: 6px 8px; }
+}
